@@ -175,6 +175,10 @@
     padding: 0 30px !important;
   }
 
+  #ms_jumbo {
+    padding: 50px 0;
+  }
+
 }
 
 
@@ -185,5 +189,15 @@
   .ms_centratura{
     padding: 0 150px !important;
   }
+
+  #ms_jumbo {
+    padding: 50px 0;
+  }
+
+  #ms_jumbo h1 {
+    margin-top: 0px;
+    font-size: 60px;
+  }
+
 
 }
