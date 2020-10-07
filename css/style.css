@@ -36,8 +36,30 @@
   background-color: #F2F4F8;
 }
 
-/* regole carousel 1 */
+/* regole carousel */
 
-#ms_caro_1 {
+#ms_caro_1,
+#ms_caro_2 {
   background-color: #F2F4F8;
+}
+
+/* regole services */
+
+#ms_services {
+  /* bg va messo gradiente */
+  background-color: blue;
+}
+
+/* regole services */
+
+#ms_start {
+  /* bg va messo gradiente */
+  background-color: blue;
+}
+
+/* regole footer */
+
+#ms_footer {
+  /* bg va messo gradiente */
+  background-color: darkblue;
 }
