@@ -59,6 +59,78 @@
   background-image: url("../img/home.jpg");
 }
 
+#ms_jumbo h1 {
+  margin-top: 50px;
+  font-size: 36px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+#ms_jumbo p {
+  font-size: 20px;
+  color: #CCCCCC;
+}
+
+#ms_jumbo .ms_whitebox{
+  padding: 15px;
+  background-color: #FFFFFF;
+  border-radius: 2%/4%;
+  text-align: center;
+}
+
+#ms_jumbo .ms_whitebox h2{
+  font-size: 26px;
+  font-weight: bold;
+  color: #000000;
+}
+
+#ms_jumbo .ms_whitebox h3{
+  margin-top: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #035CC9;
+}
+
+#ms_jumbo .ms_whitebox input{
+  margin-bottom: 10px;
+}
+
+#ms_jumbo .ms_whitebox input::placeholder {
+  color: #777777;
+  font-weight: bold;
+}
+
+#ms_jumbo .ms_whitebox .md_button_blue{
+  width: 100%;
+  margin-bottom: 10px;
+  font-weight: bold;
+  background-color: #2485FD;
+  color: #FFFFFF;
+}
+
+#ms_jumbo .ms_whitebox .md_button_white{
+  width: 100%;
+  margin-bottom: 10px;
+  font-weight: bold;
+  background-color: #FFFFFF;
+  color: #555555;
+  position: relative;
+}
+
+#ms_jumbo .ms_whitebox .md_button_white img{
+  height: 20px;
+  position: absolute;
+  left: 15px;
+}
+
+#ms_jumbo .ms_whitebox h6{
+  font-weight: bold;
+}
+
+#ms_jumbo .ms_whitebox h6 a{
+  text-decoration: underline;
+}
+
 /* regole stories */
 
 #ms_stories {
