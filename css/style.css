@@ -145,15 +145,47 @@
   font-weight: bold;
 }
 
+#ms_stories img{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 #ms_stories .ms_a_margin {
   padding: 20px 0;
 }
 
 #ms_stories a {
-  /* margin-bottom: 30px; */
   color: #035CC9;
   font-weight: bold;
 }
+
+/* regole deploy */
+
+#ms_deploy h2 {
+  margin-top: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #000000;
+}
+
+#ms_deploy p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #777777;
+}
+
+#ms_deploy ul {
+  list-style-type: none;
+  border-left: 2px solid #777777;
+}
+
+#ms_deploy ul a {
+  color: #777777;
+}
+
+
+
+
 
 /* regole carousel */
 
