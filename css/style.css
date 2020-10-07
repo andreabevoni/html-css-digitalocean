@@ -22,6 +22,35 @@
 #ms_navbar {
   background-color: #FFFFFF;
   border: none;
+  margin: 0;
+}
+
+#ms_navbar .navbar-brand{
+  padding: 10px 50px 10px 15px;
+}
+
+#ms_navbar img {
+  height: 28px;
+}
+
+#ms_navbar .navbar-collapse a {
+  padding: 15px 5px;
+  color: #000000;
+  font-weight: bold;
+}
+
+#ms_navbar .navbar-right button {
+  margin: 10px 0 0 5px;
+  color: #2485FD;
+  border-color: #2485FD;
+}
+
+#ms_navbar button.navbar-toggle.collapsed {
+  border: none;
+}
+
+#ms_navbar button.navbar-toggle.collapsed span {
+  background-color: #2485FD;
 }
 
 /* regole jumbotron */
@@ -62,4 +91,27 @@
 #ms_footer {
   /* bg va messo gradiente */
   background-color: darkblue;
+}
+
+
+
+
+/* regole per display MD */
+@media all and (min-width: 992px) and (max-width: 1199px){
+
+  .ms_centratura{
+    padding: 0 30px !important;
+  }
+
+}
+
+
+
+/* regole per display LG */
+@media all and (min-width: 1200px){
+
+  .ms_centratura{
+    padding: 0 150px !important;
+  }
+
 }
