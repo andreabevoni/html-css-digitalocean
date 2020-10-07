@@ -1,0 +1,43 @@
+/* regole generali */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* debug */
+
+[class*="col-"] {
+  height: 100px;
+  border: solid 1px red;
+}
+
+/* fine debug */
+
+
+
+/* regole header (navbar) */
+
+#ms_navbar {
+  background-color: #FFFFFF;
+  border: none;
+}
+
+/* regole jumbotron */
+
+#ms_jumbo {
+  background-image: url("../img/home.jpg");
+}
+
+/* regole stories */
+
+#ms_stories {
+  background-color: #F2F4F8;
+}
+
+/* regole carousel 1 */
+
+#ms_caro_1 {
+  background-color: #F2F4F8;
+}
