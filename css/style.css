@@ -9,7 +9,7 @@
 /* debug */
 
 [class*="col-"] {
-  height: 100px;
+  min-height: 100px !important;
   border: solid 1px red;
 }
 
