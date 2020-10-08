@@ -255,11 +255,37 @@
   color: #035CC9;
 }
 
+/* regole features */
 
+#ms_features  h2 {
+  margin: 50px 0 30px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #000000;
+}
+
+#ms_features img {
+  margin: 20px 0 10px;
+}
+
+#ms_features h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000;
+}
+
+#ms_features p {
+  color: #777777;
+}
+
+#ms_features a {
+  font-weight: bold;
+}
 
 /* regole services */
 
 #ms_services {
+  margin-top: 50px;
   /* bg va messo gradiente */
   background-color: blue;
 }
