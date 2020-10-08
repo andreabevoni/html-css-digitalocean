@@ -199,7 +199,7 @@
   color: #777777;
 }
 
-/* regole carousel */
+/* regole carousel 1 */
 
 #ms_caro_1 {
   padding: 0 30px;
@@ -286,11 +286,48 @@
 
 #ms_services {
   margin-top: 50px;
-  /* bg va messo gradiente */
-  background-color: blue;
+  padding-bottom: 50px;
+  background-image: linear-gradient(#1E3DBE, #141790);
 }
 
-/* regole services */
+#ms_services  h2 {
+  margin: 50px 0 10px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+#ms_services tr:first-of-type th {
+  border: none;
+}
+
+#ms_services .ms_table_white {
+  padding-left: 20px;
+  color: #FFFFFF;
+}
+
+#ms_services .ms_table_grey {
+  color: #777777;
+}
+
+#ms_services .ms_table_link {
+  padding-right: 20px;
+  text-align: right;
+}
+
+#ms_services .ms_table_link a {
+  color: #00E699;
+}
+
+/* regole carousel 2 */
+
+#ms_caro_2 {
+  padding: 0 30px;
+  background-color: #F2F4F8;
+}
+
+
+/* regole get started */
 
 #ms_start {
   /* bg va messo gradiente */
