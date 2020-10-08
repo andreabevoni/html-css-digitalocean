@@ -248,6 +248,11 @@
 
 #ms_caro_1 .carousel-control {
   display: none;
+  background-image: none;
+}
+
+#ms_caro_1 .carousel-control .glyphicon {
+  color: #035CC9;
 }
 
 
@@ -303,6 +308,14 @@
     margin-bottom: 20px;
   }
 
+  #ms_caro_1 img {
+    width: 400px;
+  }
+
+  #ms_caro_1 .carousel-control {
+    display: block;
+  }
+
 }
 
 
@@ -337,6 +350,18 @@
 
   #ms_deploy h5 {
     margin-bottom: 20px;
+  }
+
+  #ms_caro_1 img {
+    width: 600px;
+  }
+
+  #ms_caro_1 h5 {
+    margin-bottom: 10px;
+  }
+
+  #ms_caro_1 .carousel-control {
+    display: block;
   }
 
 }
